@@ -6,6 +6,7 @@
 - Bootstrap 4-beta
 - HTML
 - CSS
+- Heroku
 
 
 # Authors
