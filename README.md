@@ -1,6 +1,13 @@
 # Voyage2-Turtles-04
 
 
+# Stack
+- React.js v15.0
+- Bootstrap 4-beta
+- HTML
+- CSS
+
+
 # Authors
 
  Nikhil Khatana [Nikhil Khatana](https://github.com/NikhilKhatana)
