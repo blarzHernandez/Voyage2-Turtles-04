@@ -1,5 +1,5 @@
 # Voyage2-Turtles-04
-
+ This app helps you in the quest by showcasing incredible places you can visit, along with the flight cost to get there.
 
 # Stack
 - React.js 
