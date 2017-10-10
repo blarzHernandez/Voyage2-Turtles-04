@@ -2,7 +2,7 @@
 
 
 # Stack
-- React.js v15.0
+- React.js 
 - Bootstrap 4-beta
 - HTML
 - CSS
