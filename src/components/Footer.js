@@ -8,8 +8,8 @@ class Footer extends Component {
             <small><a href="#">Flickr Author</a></small>
             <ul className="list pa0 ma0">
               <small>Share:</small>
-              <li><a ClassName="iconLink" href="#">Facebook Icon</a></li>
-              <li><a ClassName="iconLink" href="#">Twitter Icon</a></li>
+              <li><a className="iconLink" href="#">Facebook Icon</a></li>
+              <li><a className="iconLink" href="#">Twitter Icon</a></li>
               <li id="CopyToClipboard">Cliboard Icon</li>
             </ul>
           </div>

@@ -1,17 +1,29 @@
 import React, { Component } from 'react';
+import {Nav, NavDropdown,Form, FormControl,FormGroup, Navbar,Button, ButtonGroup, NavbarHeader, NavbarInstance, MenuItem, NavItem }from 'react-bootstrap';
 
 class Header extends Component {
   render() {
     return (
-      <header className="flex justify-between items-center">
-        <a className="githubLink" href="">GiHub Link</a>
-        <label htmlFor="selectDesination">Type in new destination
-          <input type="text" id="selectDesination"/>
-        </label>
-        <div>
-          <h2>New Desintation></h2>
-        </div>
-      </header>
+      <Navbar>
+          <Navbar.Header>
+            <Navbar.Brand>
+              <a href="#">Home</a>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+          </Navbar.Header>
+          <Navbar.Collapse>
+          <div className="center-search">
+            <Navbar.Form >            
+              <FormGroup >                
+                  <FormControl type="text" placeholder="Search" />
+              </FormGroup>
+              <Nav pullRight>
+              <NavItem eventKey={2} href="#">New Destination</NavItem>
+              </Nav>
+            </Navbar.Form>
+            </div>
+          </Navbar.Collapse>
+      </Navbar>
     );
   }
 }
