@@ -132,7 +132,7 @@ h1,h2,h3,h4{
   position: absolute;
   top: 75%;
   left: 50%;
-  transform: translateX(-20%) translateY(-75%);
+  transform: translateX(-20%) translateY(-50%);
 }
 .buttons{
   padding-left: 10%;
@@ -140,7 +140,7 @@ h1,h2,h3,h4{
 
 .customH1{
  
- font-size: 4em;
+ font-size: 3em;
  text-shadow: 1px 3px 10px black;
 
 }
