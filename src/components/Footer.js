@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CurrentDestination from './CurrentDestination'
+import FbButton from './FbButton'
 
 class Footer extends Component {
   render() {
