@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import {Nav, NavDropdown, Glyphicon, Form, FormControl,FormGroup, Navbar,Button, ButtonGroup, NavbarHeader, NavbarInstance, MenuItem, NavItem }from 'react-bootstrap';
+import {Flickr} from '../Api/FlickrAPI';
 
 class Header extends Component {
+
+
   render() {
     return (
-
+      
       <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
